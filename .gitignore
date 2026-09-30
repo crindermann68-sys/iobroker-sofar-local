@@ -1,0 +1,17 @@
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tgz
+*.zip
+.env
+.env.*
+coverage/
+
+# Local/private test data
+config.local.json
+*.local.json

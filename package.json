@@ -1,0 +1,23 @@
+{
+  "name": "iobroker.sofar-local",
+  "version": "0.4.3",
+  "description": "Lokaler ioBroker-Adapter zum Auslesen kompatibler SOFAR-Wechselrichter über LSW3/SOLARMAN V5 TCP.",
+  "main": "main.js",
+  "author": "Christian Rindermann",
+  "license": "MIT",
+  "keywords": ["ioBroker", "SOFAR", "LSW3", "SOLARMAN V5", "Modbus", "PV", "Photovoltaik", "Batterie"],
+  "iobroker": {
+    "type": "hardware",
+    "compact": true,
+    "mode": "daemon",
+    "loglevel": "info",
+    "icon": "sofar-local.png",
+    "adminUI": { "config": "json" }
+  },
+  "dependencies": {
+    "@iobroker/adapter-core": "^3.2.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

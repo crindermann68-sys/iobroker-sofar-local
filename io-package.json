@@ -1,0 +1,70 @@
+{
+  "common": {
+    "name": "sofar-local",
+    "version": "0.4.3",
+    "news": {
+      "0.4.3": {
+        "de": "GitHub-Release vorbereitet: private Geräteparameter entfernt, Projektmetadaten und Dokumentation bereinigt."
+      },
+      "0.4.2": {
+        "de": "Rohdaten-Register werden vor dem ersten Polling automatisch als ioBroker-Objekte angelegt."
+      },
+      "0.4.1": {
+        "de": "Berechnung des Hausverbrauchs aus PV-, Batterie- und Netzleistung ergänzt."
+      },
+      "0.3.8": {
+        "de": "Konfigurationsoberfläche stabilisiert; deutsche Bezeichnungen."
+      }
+    },
+    "titleLang": {
+      "de": "SOFAR Lokal",
+      "en": "SOFAR Local"
+    },
+    "desc": {
+      "de": "SOFAR-Wechselrichter lokal über LSW3/SOLARMAN V5 auslesen",
+      "en": "Read SOFAR inverter data locally via LSW3/SOLARMAN V5"
+    },
+    "authors": [
+      {
+        "name": "Christian Rindermann"
+      }
+    ],
+    "platform": "Javascript/Node.js",
+    "mode": "daemon",
+    "compact": true,
+    "type": "hardware",
+    "connectionType": "local",
+    "dataSource": "poll",
+    "messagebox": false,
+    "adminUI": {
+      "config": "json"
+    },
+    "icon": "sofar-local.png",
+    "licenseInformation": {
+      "license": "MIT",
+      "type": "free"
+    },
+    "tier": 3,
+    "dependencies": [
+      {
+        "js-controller": ">=6.0.11"
+      }
+    ],
+    "globalDependencies": [
+      {
+        "admin": ">=7.7.22"
+      }
+    ]
+  },
+  "native": {
+    "host": "",
+    "port": "8899",
+    "loggerSn": "",
+    "slaveId": "1",
+    "timeoutMs": "8000",
+    "pollMs": "15000"
+  },
+  "objects": [],
+  "encryptedNative": [],
+  "protectedNative": []
+}
