@@ -1,6 +1,11 @@
 # ioBroker SOFAR Local
 
+Development note
+This project was developed with the assistance of AI tools. The code has been tested with a SOFAR HYD 4000-EP and LSW3 logger and adapted based on real-world testing.
 Lokaler ioBroker-Adapter zum Auslesen kompatibler SOFAR-Wechselrichter über einen LSW3-Logger mit SOLARMAN V5 über TCP.
+
+Hinweis zur Entwicklung
+Dieses Projekt wurde mit Unterstützung von KI-Tools entwickelt. Die Implementierung wurde mit einem SOFAR HYD 4000-EP und einem LSW3-Logger praktisch getestet und anhand der dabei ermittelten Daten angepasst.
 
 > **Status:** Entwicklung / Community-Projekt. Getestet mit SOFAR HYD 4000-EP und LSW3.
 
